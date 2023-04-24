@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+main{
+    margin-top: 150px;
+}
+p{
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+a:hover{
+    color:black;  
+}
+.menu_top{
+    width: 100%;
+    height: 170px;
+    border-bottom: 3px solid rgb(2, 2, 54);
+    border-top: 10px solid rgb(2, 2, 54);
+    background-color: bisque;
+}
+.top_esq{
+    width: 170px;
+    float:left;
+    padding: 10px;
+}
+.top_center{
+    float:left;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: rgb(2, 2, 54);;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.top_dir{
+
+    width: 200px;
+    float:left;
+    padding-left: 35px;
+    padding-top: 60px;
+
+}
+.menu_down{
+    background: rgb(2, 2, 54);;
+    height: 40px;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.menu ul li{
+    background: rgb(2, 2, 54);;
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+.menu ul li:hover{
+    background-color: rgb(2, 2, 54);;
+}
+.menu ul{
+    padding: 0px;
+    max-width: 800px;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 131px;
+    position: absolute;
+    top: 0px;
+}
+.img{
+float: left;
+margin: 0px;
+}
+    .m_meio{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(2, 2, 54);
+    }
+    .m_meio img{
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    width: 320px;
+    border: black solid 1px;
+    }
+    footer img{
+        width: 10px;
+    }
+    .footer img{
+        width: 12px;
+    }
+    .banner img{
+        margin-top: 150px;
+
+    }
