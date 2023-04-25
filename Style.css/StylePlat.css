@@ -4,12 +4,17 @@
 }
 header{
     position: fixed;
+    position:relative;
     top: 0;
     left: 0;
     width: 100%;
 }
 main{
     margin-top: 150px;
+    margin-top: 218px;
+    background-color: rgb(2, 2, 54);
+    width: 100%;
+    height: 100%;
 }
 p{
     text-align: justify;
@@ -45,92 +50,45 @@ a:hover{
     padding-left: 35px;
     padding-top: 20px;
 }
-.top_dir{
-
-    width: 200px;
-    float:left;
-    padding-left: 35px;
-    padding-top: 60px;
-
+.menu_top{
+    width: 100%;
+    height: 170px;
+    border-bottom: 20px solid rgb(2, 2, 54);
+    border-top: 15px solid rgb(2, 2, 54);
+    background-color: #1d1d1d;
 }
-.menu_down{
-    background: rgb(2, 2, 54);;
-    height: 40px;
-    text-align: center;
-}
-.menu{
-    position: relative;
-    border-right: solid 2px #ef5a2c;
-}
-.clear{
-    clear: both;
-}
-.menu ul li{
-    background: rgb(2, 2, 54);;
-    width: 150px;
-    height: 40px;
+.top_esp{
+    width: 140px;
     float: left;
-    display: inline-block;
+    padding: 15px;
+}
+.top_dd{
+    width: 240px;
+    float: left;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.top_dir{
+    float: left;
     text-align: center;
-    line-height: 40px;
-    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #fffcfc;
+    padding-top: 20px;
 }
-.menu ul li:hover{
-    background-color: rgb(2, 2, 54);;
-}
-.menu ul{
-    padding: 0px;
-    max-width: 800px;
-}
-.menu ul ul{
-    display: none;
-}
-.menu ul li:hover > ul{
-    display: block;
-}
-.menu ul ul ul{
-    margin-left: 131px;
-    position: absolute;
-    top: 0px;
-}
-.menu ul ul li:hover{
-    background-color: bisque;
-}
-.menu ul ul ul li:hover{
-    background-color: bisque;
-}
-.img{
-float: left;
-margin: 0px;
-}
-    .m_meio{
+.m_meio{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 1200px;
+    height: 950px;
     background-color: rgb(2, 2, 54);
-    }
-    .m_meio img{
+}
+.m_meio img{
     border-radius: 10px;
     float: left;
-    margin: 20px;
+    margin: 25px;
+    margin-left: 10px;
     width: 320px;
-    border: black solid 1px;
-    }
-    footer{
-        background-color: bisque;
-        font-family: 'Times New Roman', Times, serif;
-        height: 100px;
-       
-    }
-    
-    footer img{
-        width: 10px;
-    }
-    .footer img{
-        width: 12px;
-    }
-    .banner img{
-        margin-top: 150px;
-
-    }
+    border: rgb(255, 247, 1) solid 1px;
+}
