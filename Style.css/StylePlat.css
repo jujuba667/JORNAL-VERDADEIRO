@@ -3,8 +3,7 @@
     padding: 0;
 }
 header{
-    position: fixed;
-    position:relative;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -55,7 +54,7 @@ a:hover{
     height: 170px;
     border-bottom: 20px solid rgb(2, 2, 54);
     border-top: 15px solid rgb(2, 2, 54);
-    background-color: #1d1d1d;
+    background-color:rgb(226, 183, 43);
 }
 .top_esp{
     width: 140px;
@@ -90,5 +89,5 @@ a:hover{
     margin: 25px;
     margin-left: 10px;
     width: 320px;
-    border: rgb(255, 247, 1) solid 1px;
+    border: rgb(226, 183, 43) solid 1px;
 }
