@@ -1,65 +1,37 @@
-
 *{
-    margin: 0;
     padding: 0;
+    margin: 0 auto;
 }
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-main{
-    margin-top: 150px;
-}
-p{
-    text-align: justify;
-    line-height: 1.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-}
-a{
-    text-decoration: none;
-    color: bisque;
-}
-a:hover{
-    color:black;  
+body{
+    background-color: rgb(2,2,54);
 
 }
-.top_esq{
-    width: 170px;
-    float:left;
-    padding: 10px;
+.f_atores{
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+
 }
-.top_center{
-    float:left;
+.atores{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100px;
-    color: rgb(2, 2, 54);;
-    padding-left: 35px;
-    padding-top: 20px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(244, 196, 23);
 }
-.top_dir{
-
-    width: 200px;
-    float:left;
-    padding-left: 35px;
-    padding-top: 60px;
-
+.atores img{
+    width: 250px;
+    height: 300px;
 }
 .clear{
     clear: both;
 }
-
-.img{
-float: left;
-margin: 0px;
+.m_tit{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 183, 43);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
-    
-    footer{
-        background-color: bisque;
-        font-family: 'Times New Roman', Times, serif;
-        height: 100px;
-       
-    }
+.top_dd{
+
+    float: right;
+}
